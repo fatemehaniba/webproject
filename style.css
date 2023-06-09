@@ -1,11 +1,6 @@
-*,
-*:before,
-*:after {
-  box-sizing: border-box;
-  direction: rtl;
-}
 
 body {
+  direction: rtl;
   font-size: 1rem;
   font-weight: 400 bold;
   line-height: 2;
@@ -22,8 +17,8 @@ body::before {
   z-index: -1;
   background-image: linear-gradient(
       115deg,
-      rgba(255, 0, 0, 0.344),
-      rgba(0, 0, 255, 0.367)
+      rgba(119, 255, 0, 0.344),
+      rgba(255, 0, 217, 0.367)
     );
   background-size: cover;
   background-repeat: no-repeat;

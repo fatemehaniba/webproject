@@ -71,7 +71,14 @@ button {
   min-width: 768px;
 }
 
-
+.header {
+  /* padding: 0 0.625rem; */
+  /* margin-bottom: 1.875rem; */
+  color: rgb(0, 0, 0);
+  background-color: #495057;
+  border-bottom: 2px solid orange;
+  text-align: center;
+}
 
 .text-center {
   text-align: center;
